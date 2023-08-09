@@ -3,19 +3,15 @@ const btnRegistro = document.getElementById("sign-up");
 const formRegistros = document.querySelector(".registro");
 const formIngresos = document.querySelector(".ingreso");
 
-// formulario para registrarse
 btnIniciar.addEventListener("click", () => toggleForms(formRegistros, formIngresos));
-
-// formulario para iniciar sesión
 btnRegistro.addEventListener("click", () => toggleForms(formIngresos, formRegistros));
 
-// función para alternar formularios
 const toggleForms = (formToHide, formToShow) => {
     formToHide.classList.add("hide");
     formToShow.classList.remove("hide");
 };
 
-// registro de usuarios
+// Registro de usuarios
 const formRegistro = document.getElementById("formNuevo");
 const inputs = [
     { element: document.getElementById("usuarioNuevo"), error: 'Campo vacío' },
@@ -42,7 +38,6 @@ const validarCampos = () => {
         }
     });
 
-    // parar si hay campos vacíos
     if (!isValid) {
         return; 
     }
@@ -59,7 +54,6 @@ const validarCampos = () => {
         isValid = false;
     }
 
-    // parar si alguna validación no es correcta
     if (!isValid) {
         return; 
     }
@@ -70,7 +64,7 @@ const validarCampos = () => {
         validaOk(inputs.map(inputData => inputData.element));
         const nuevoUsuario = crearUsuario(usuarioValor, passValor);
         guardarUsuarioEnLocalStorage(nuevoUsuario);
-        toggleForms(formRegistros, formIngresos); // para intercambiar formularios e iniciar sesión
+        toggleForms(formRegistros, formIngresos);
     }
 };
 
@@ -79,7 +73,6 @@ const usuarioExisteEnLocalStorage = (nombreUsuario) => {
     return usuariosGuardados.some(usuario => usuario.nombre === nombreUsuario);
 };
 
-// Mostrar y eliminar avisos si son datos correctos
 const noValida = (input, msje) => {
     const formControl = input.parentElement;
     const aviso = formControl.querySelector('.aviso');
@@ -108,7 +101,6 @@ const quitarAvisos = () => {
     });
 };
 
-// Guardar datos de usuarios nuevos
 function crearUsuario(nombre, contraseña) {
     return {
         nombre: nombre,
@@ -123,24 +115,25 @@ function guardarUsuarioEnLocalStorage(usuario) {
 }
 
 // Iniciar sesión con usuarios creados
-const btnIngresar = document.getElementById("btn-ingresar");
+const btnIngresar = document.querySelector(".btn2");
+
 btnIngresar.addEventListener("click", () => {
-    const usuarioIngreso = document.getElementById("usuarioIngreso").value.trim();
-    const contraseñaIngreso = document.getElementById("contraseñaIngreso").value.trim();
+    const usuarioIngreso = document.getElementById("usuario").value.trim();
+    const contraseñaIngreso = document.getElementById("contraseña").value.trim();
 
     if (validarCredenciales(usuarioIngreso, contraseñaIngreso)) {
         // Aquí puedes redirigir o realizar otras acciones después de iniciar sesión correctamente
         console.log("Inicio de sesión exitoso");
     } else {
-        // Mostrar mensaje de error de inicio de sesión
+        const avisoIncorrecto = document.querySelector(".incorrecto");
+        avisoIncorrecto.innerText = "Credenciales incorrectas";
         console.log("Credenciales incorrectas");
     }
 });
 
-// Validar usuario y contraseña ingresadas
 const validarCredenciales = (usuario, contraseña) => {
     const usuariosGuardados = JSON.parse(localStorage.getItem('usuarios')) || [];
     const usuarioEncontrado = usuariosGuardados.find(usr => usr.nombre === usuario);
 
-    return usuarioEncontrado && usuarioEncontrado.contraseña === contraseña;
-};
+    return usuarioEncontrado && usuarioEn
+}
