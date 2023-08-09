@@ -117,9 +117,5 @@ window.addEventListener('load', () => {
 
         const formRegistro = document.querySelector(".registro");
         formRegistro.appendChild(mensajeBienvenida);
-
-        setTimeout(() => {
-            mensajeBienvenida.remove();
-        }, 3000);
     }
 });
