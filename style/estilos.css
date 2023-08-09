@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--text-2);
+}
+
+:root{
+    --text-1: 'Anton', sans-serif;
+    --text-2: 'Josefin Sans', sans-serif;
+    --text-3: 'Russo One', sans-serif;
+    --color-1: #213734;
+    --color-2: #115c3e;
+    --color-3: #F2E3DB;
+    --color-4: #E86A33;
+}
+
