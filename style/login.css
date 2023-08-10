@@ -82,7 +82,8 @@ p{
 }
 
 
-.control-form input{
+.control-form input,
+.control-inicio{
     font-size: 1.2rem;
     border-radius: 20px;
     padding: 5px 10px;
@@ -93,7 +94,8 @@ p{
     color: var(--color-1);
 }
 
-.aviso{
+.aviso,
+.incorrecto{
     font-size: 1.1rem;
     color: rgb(218, 54, 33);
 }
