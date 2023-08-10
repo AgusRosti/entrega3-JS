@@ -83,7 +83,7 @@ p{
 
 
 .control-form input,
-.control-inicio{
+.control-inicio input{
     font-size: 1.2rem;
     border-radius: 20px;
     padding: 5px 10px;
@@ -91,6 +91,7 @@ p{
 }
 
 .campos svg{
+
     color: var(--color-1);
 }
 
