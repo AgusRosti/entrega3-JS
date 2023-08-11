@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Paytone+One&display=swap');
+
 
 * {
     padding: 0;
@@ -10,10 +11,43 @@
 :root{
     --text-1: 'Anton', sans-serif;
     --text-2: 'Josefin Sans', sans-serif;
-    --text-3: 'Russo One', sans-serif;
+    --text-3: 'Paytone One', sans-serif;
     --color-1: #213734;
     --color-2: #115c3e;
     --color-3: #F2E3DB;
     --color-4: #E86A33;
 }
 
+.menu{
+    background-color: var(--color-3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    color: var(--color-1)
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo h2{
+    font-family: var(--text-3);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.menu-hamb{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    width: 60%;
+    transition: transform .5s;
+}
+
+.menu-item{
+    list-style: none;
+    position: relative;
+}
