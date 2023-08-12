@@ -14,23 +14,27 @@
     --text-3: 'Paytone One', sans-serif;
     --color-1: #213734;
     --color-2: #115c3e;
-    --color-3: #F2E3DB;
+    --color-3: #fcf2ed;
     --color-4: #E86A33;
 }
 
+
+/** navbar **/
+
 .menu{
-    background-color: var(--color-3);
+    background-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px 50px;
-    color: var(--color-1)
+    justify-content: space-around;
+    padding: 15px 50px;
+    color: var(--color-1);
 }
 
 .logo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 18px;
 }
 
 .logo h2{
@@ -49,5 +53,38 @@
 
 .menu-item{
     list-style: none;
-    position: relative;
+}
+
+.menu-link{
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-family: var(--text-2);
+    font-size: 1.05rem;
+    color: var(--color-1);
+    transition: all .5s;
+}
+
+.menu-link:hover{
+    border-bottom: 1px solid var(--color-2);
+    transition: all .5s;
+}
+
+.carrito{
+    width: 30px;
+    height: 30px;
+    color: var(--color-4);
+    transition: all .5s;
+}
+
+.carrito:hover{
+    width: 32px;
+    height: 32px;
+    transition: all .5s;
+}
+
+
+/** pagina landing **/
+
+.sec1{
+    height: 100vh;
 }

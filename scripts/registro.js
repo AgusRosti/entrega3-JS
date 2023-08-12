@@ -71,11 +71,20 @@ const validarCampos = () => {
     if (usuarioExisteEnLocalStorage(usuarioValor)) {
         noValida(inputs[0].element, 'El usuario ya existe. Prueba con otro nombre de usuario');
     } else {
-        // guarda datos y muestra el form de inicio de sesión si todos los datos son validos
+        // Resto del código para guardar el usuario en LocalStorage
         validaOk(inputs.map(inputData => inputData.element));
         const nuevoUsuario = crearUsuario(usuarioValor, passValor);
         guardarUsuarioEnLocalStorage(nuevoUsuario);
-        mostrarFormularioIngreso(); 
+
+        // Mostrar cartel con SweetAlert2
+        Swal.fire({
+            icon: 'success',
+            title: 'Felicitaciones',
+            text: '¡Ya eres parte de nuestra comunidad!',
+            confirmButtonText: 'Aceptar'
+        }).then(() => {
+            mostrarFormularioIngreso();
+        });
     }
 };
 

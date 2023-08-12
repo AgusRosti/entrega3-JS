@@ -1,8 +1,10 @@
-const formIngreso = document.querySelector(".form");
+document.addEventListener("DOMContentLoaded", () => {
+    const formIngreso = document.querySelector(".form2");
 
-formIngreso.addEventListener('submit', (event) => {
-    event.preventDefault();
-    validarInicioSesion();
+    formIngreso.addEventListener('submit', (event) => {
+        event.preventDefault();
+        validarInicioSesion();
+    });
 });
 
 const validarInicioSesion = () => {
@@ -14,7 +16,6 @@ const validarInicioSesion = () => {
 
         // Redirigir al nuevo html si todo es valido, sino
         if (usuarioGuardado.contraseña === passValor) {
-        
             window.location.href = './landing.html';  
         } else {
             mostrarErrorInicioContraseña('La contraseña ingresada es incorrecta, intente nuevamente');
@@ -36,16 +37,10 @@ const mostrarErrorInicioContraseña = (mensaje) => {
     incorrectoContraseñaElement.style.display = 'block'; 
 };
 
-
 //validar usuario guardado
 const usuarioExiste = (nombreUsuario) => {
     const usuariosGuardados = JSON.parse(localStorage.getItem('usuarios')) || [];
     return usuariosGuardados.some(usuario => usuario.nombre === nombreUsuario);
-};
-
-const obtenerUsuario = (nombreUsuario) => {
-    const usuariosGuardados = JSON.parse(localStorage.getItem('usuarios')) || [];
-    return usuariosGuardados.find(usuario => usuario.nombre === nombreUsuario);
 };
 
 function obtenerUsuarioPorNombre(nombreUsuario) {
