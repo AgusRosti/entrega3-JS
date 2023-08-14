@@ -21,8 +21,17 @@
 
 /** navbar **/
 
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 .menu{
-    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: #115c3e79;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -60,20 +69,23 @@
     text-decoration: none;
     font-family: var(--text-2);
     font-size: 1.05rem;
-    color: var(--color-1);
-    transition: all .5s;
+    color: var(--color-3);
+    transition: all .5s ease;
 }
 
 .menu-link:hover{
-    border-bottom: 1px solid var(--color-2);
-    transition: all .5s;
+    color: var(--color-4);
+    text-shadow: 0px 0px 4px var(--color-3);
+    transition: all .5s ease;
 }
+
 
 .carrito{
     width: 30px;
     height: 30px;
     color: var(--color-4);
     transition: all .5s;
+    cursor: pointer;
 }
 
 .carrito:hover{
@@ -85,6 +97,53 @@
 
 /** pagina landing **/
 
-.sec1{
-    height: 100vh;
+.main{
+    position: relative;
 }
+
+.sec1{
+    background-image: url(../images/henry-be-IicyiaPYGGI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center ;
+    color: var(--color-1);
+    text-shadow: 1px 1px 3px var(--color-2);
+}
+
+.art1-t{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.art1-subt{
+    font-family: var(--text-2);
+    letter-spacing: 2px;
+    padding: 20px 80px;
+}
+
+.caba{
+    font-size: 1.5rem;
+    padding: 30px 100px 0px;
+}
+
+.bi-arrow-down-circle-fill{
+    position: absolute;
+    z-index: 1;
+    bottom: 3%;
+    animation: mov-subibaja 1s ease infinite;
+}
+
+@keyframes mov-subibaja {
+    0% {transform: translateY(20px);}
+    25% {transform: translateY(10px);}
+    100% {transform: translateY(20px)}
+}
+
+.section h1{
+    font-family: var(--text-3);
+}
+
+.section h2{
+    font-family: var(--text-1);
+}
+
