@@ -1,0 +1,34 @@
+{
+    "huerta": {
+        "modulos": [
+            {
+                "titulo": "Presentación del curso",
+                "contenido": "Introducción, tipos de huertas. - Elección del espacio. Requerimientos básicos"
+            },
+            {
+                "titulo": "Preparación del suelo",
+                "contenido": "Coberturas. Dinámica de los sustratos en contenedores"
+            },
+            {
+                "titulo": "Siembra y plantación",
+                "contenido": "Densidades. Asociaciones. Siembra directa y almacigo. - Cuidados y consideraciones en cada caso"
+            },
+            {
+                "titulo": "Cuidado de la huerta",
+                "contenido": "Riego. - Acolchado. - Abonado. - Poda. - Rotación de cultivos."
+            },
+            {
+                "titulo": "Recolección y cosecha",
+                "contenido": "Cosecha en el momento justo. - Herramientas de cosecha. - Almacenamiento de los alimentos."
+            },
+            {
+                "titulo": "Plagas y enfermedades",
+                "contenido": "Identificación de plagas y enfermedades comunes. - Control y prevención."
+            },
+            {
+                "titulo": "Huerta y salud",
+                "contenido": "Beneficios de consumir alimentos de la huerta. - El huerto como espacio terapéutico."
+            }
+        ]
+    }
+}

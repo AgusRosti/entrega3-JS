@@ -1,0 +1,38 @@
+{
+    "organicos": {
+        "modulos": [
+            {
+                "titulo": "El mundo de las plantas",
+                "contenido": "Diagrama de Reino Plantae. - ¿Qué es una planta angiosperma y una gimnosperma? - Órganos y partes de una planta. - Plantas perennes, bianuales, anuales. - Diferencia entre arbustos, herbáceas y árboles. - Follaje caduco y perenne."
+            },
+            {
+                "titulo": "Suelo",
+                "contenido": "Composición y tipos de suelos. - Tipos de sustratos. - PH del suelo. - Fertilización. - Compost casero."
+            },
+            {
+                "titulo": "Riego y asoleamiento",
+                "contenido": "Requerimientos de agua. - Requerimientos de luz."
+            },
+            {
+                "titulo": "Trasplante",
+                "contenido": "Trasplante de suelo a suelo. - Trasplante de maceta a suelo. - Trasplante de maceta a maceta."
+            },
+            {
+                "titulo": "Poda",
+                "contenido": "Generalidades. - Poda de árboles ornamentales. - Poda de arbustos. - Herramientas de poda."
+            },
+            {
+                "titulo": "Reproducción (multiplicación sexual)",
+                "contenido": "Flor, fruto, semilla. - Germinación. - Polinización. - Calendario de siembra."
+            },
+            {
+                "titulo": "Reproducción (multiplicación asexual)",
+                "contenido": "Generalidades. - Reproducción por esqueje. - Reproducción por acodo. - Bulbos."
+            },
+            {
+                "titulo": "Sanidad vegetal",
+                "contenido": "Reconocimiento de plagas y hongos más comunes en los jardines urbanos. - Control orgánico."
+            }
+        ]
+    }
+}

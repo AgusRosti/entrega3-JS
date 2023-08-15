@@ -1,0 +1,19 @@
+{
+    "interior": {
+        "modulos": [{
+                "titulo": "Conceptos iniciales",
+                "contenido": "Nombre científico - Monoico y dióico - Monocotiledóneas y dicotiledóneas - Componente vegetal: agrupamientos, hojas, flores, frutos - Requerimientos físico-químicos de las plantas: sustrato, agua, aire, asoleamiento, temperatura, viento, riego - Como estudiar las plantas - Gimnospermas y Angiospermas"
+            },
+            {
+                "titulo": "Monocotiledóneas y Dicotiledóneas",
+                "contenido": "Gramíneas ornamentales"
+            },
+            {
+                "titulo": "Árboles y Arbustos"
+            },
+            {
+                "titulo": "Trepadoras y Herbáceas"
+            }
+        ]
+    }
+}
