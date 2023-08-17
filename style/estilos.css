@@ -89,8 +89,7 @@
 }
 
 .carrito:hover {
-    width: 32px;
-    height: 32px;
+    color: #e78e68;
     transition: all .5s;
 }
 
