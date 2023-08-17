@@ -43,15 +43,14 @@
                 </li>
             </ul>
 
-            <svg class="carrito" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-cart-fill" viewBox="0 0 16 16">
-                <path
-                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            <svg class="carrito" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
             </svg>
+
         </nav>
     </header>
 
-    <div class="main">
+    <main class="main">
 
         <section class="sec1" id="Inicio">
             <article class="art-sec1">
@@ -74,7 +73,7 @@
                 <h2 class="precio">$25.000</h2>
                 <h3 class="fecha"> Inicio 11 de agosto 2023 </h3>
                 <p class="texto">Este curso te propone iniciarte en la interpretación del paisaje y sus elementos valorando el rol que cumplen las plantas en la complejidad de la vida</p>
-                <button class="btn2-jardines">Programa</button>
+                <button class="btn2-jardines btn2" data-id="jardines">Programa</button>
                 <button class="btn">Comprar</button>
             </article>
 
@@ -99,7 +98,7 @@
                 <h2 class="precio">$30.000</h2>
                 <h3 class="fecha">Inicio 11 de agosto 2023 </h3>
                 <p class="texto">Este curso te permite desarrollar herramientas teóricas del mundo vegetal para poner en práctica en patios, terrazas o jardines, valorando y cuidando las vidas de las plantas y haciendo hincapié en el manejo orgánico de dichas prácticas.</p>
-                <button class="btn2-organicos">Programa</button>
+                <button class="btn2-organicos btn2" data-id="organicos">Programa</button>
                 <button class="btn">Comprar</button>
             </article>
         </section>
@@ -110,7 +109,7 @@
                 <h2 class="precio">$10.000</h2>
                 <h3 class="fecha">Inicio 11 de agosto 2023 </h3>
                 <p class="texto">Volviendo a lo natural. Aprende a planificar tu huerta, suelo, abono, compostera, sanidad y produce una gran variedad de hortalizas que serán la base de tu alimentación rica y saludable.</p>
-                <button class="btn2-huerta">Programa</button>
+                <button class="btn2-huerta btn2" data-id="huerta">Programa</button>
                 <button class="btn">Comprar</button>
             </article>
 
@@ -135,11 +134,14 @@
                 <h2 class="precio">$30.000</h2>
                 <h3 class="fecha">Inicio 11 de agosto 2023 </h3>
                 <p class="texto">Conoce las plantas que pueden cultivarse en espacios cubiertos e interiores.</p>
-                <button class="btn2-interior">Programa</button>
-                <button class="btn">Comprar</button>
+                <button class="btn2-interior btn2" data-id="interior">Programa</button>
+                <button class="btn" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito">Comprar</button>
             </article>
         </section>
-    </div>
+
+    </main>
+
+
 
     <footer>
         <section class="footer">
@@ -187,6 +189,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0"></script>
+    <script src="./scripts/programas.js"></script>
     <script src="./scripts/app.js"></script>
 </body>
 

@@ -1,0 +1,131 @@
+{
+    "jardines": {
+    "nombre": "Diseño de Jardines",
+    "modulos": [
+        {
+            "titulo": "Conceptos iniciales",
+            "contenido": "Conceptos - Funciones - Calidades - Etapas del paisajismo"
+        },
+        {
+            "titulo": "Relevamiento y bases para el diseño técnico",
+            "contenido": "Relevamiento: plano de situación, mediciones, diseño de croquis, documentación y registro fotográfico/videos - Diseño técnico: Elaboración de planta en escala : diseño en tablero, herramientas, precisión y el uso de papel de calco"
+        },
+        {
+            "titulo": "El espacio y sus usuarios",
+            "contenido": "Análisis del espacio: fortalezas y debilidades - Limitaciones y aspectos condicionantes: factores que influyen en el proceso creativo (asoleamiento, suelos, clima, lluvia, vientos etc.) - Necesidades y deseos de los usuarios del espacio - Mantenimiento"
+        },
+        {
+            "titulo": "Preparación del proceso creativo",
+            "contenido": "Trama y forma - Dimensiones - Funcionalidad - Circulación - Solución de problemas"
+        },
+        {
+            "titulo": "Proceso creativo: el (ante)proyecto",
+            "contenido": "Forma: jardines geométricos y orgánicos - El jardín según la época del año: el color en el jardín - Los 5 sentidos en el jardín: presencia de agua en el jardín, factor sorpresa - Soluciones a las debilidades anteriormente relevadas - Materiales: recursos vegetales y arquitectónicos - Iluminación y riego"
+        },
+        {
+            "titulo": "Diseño de una planta de paisajismo",
+            "contenido": "Grafismos de los recursos vegetales - Representaciones gráficas de equipamientos e instalaciones (simbología) - Representación gráfica: color y escala de grises - Paleta de colores utilizados - Anotaciones que no deben faltar (datos técnicos)"
+        },
+        {
+            "titulo": "Costos y presupuestos",
+            "contenido": "Tabla de especies - Tabla de insumos - Tabla de materiales - Contratación de servicios de terceros - Mano de obra y herramental"
+        },
+        {
+            "titulo": "Ejecución, entrega y mantenimiento",
+            "contenido": "Etapas de trabajo y sus tiempos - Etapas de plantación - Revisión del trabajo ejecutado - Entrega: presentación del jardín - Indicaciones de mantenimiento"
+        }
+    ]
+    },
+
+    "organicos": {
+    "nombre": "Jardinería Orgánica",
+    "modulos": [
+        {
+            "titulo": "El mundo de las plantas",
+            "contenido": "Diagrama de Reino Plantae. - ¿Qué es una planta angiosperma y una gimnosperma? - Órganos y partes de una planta. - Plantas perennes, bianuales, anuales. - Diferencia entre arbustos, herbáceas y árboles. - Follaje caduco y perenne."
+        },
+        {
+            "titulo": "Suelo",
+            "contenido": "Composición y tipos de suelos. - Tipos de sustratos. - PH del suelo. - Fertilización. - Compost casero."
+        },
+        {
+            "titulo": "Riego y asoleamiento",
+            "contenido": "Requerimientos de agua. - Requerimientos de luz."
+        },
+        {
+            "titulo": "Trasplante",
+            "contenido": "Trasplante de suelo a suelo. - Trasplante de maceta a suelo. - Trasplante de maceta a maceta."
+        },
+        {
+            "titulo": "Poda",
+            "contenido": "Generalidades. - Poda de árboles ornamentales. - Poda de arbustos. - Herramientas de poda."
+        },
+        {
+            "titulo": "Reproducción (multiplicación sexual)",
+            "contenido": "Flor, fruto, semilla. - Germinación. - Polinización. - Calendario de siembra."
+        },
+        {
+            "titulo": "Reproducción (multiplicación asexual)",
+            "contenido": "Generalidades. - Reproducción por esqueje. - Reproducción por acodo. - Bulbos."
+        },
+        {
+            "titulo": "Sanidad vegetal",
+            "contenido": "Reconocimiento de plagas y hongos más comunes en los jardines urbanos. - Control orgánico."
+        }
+    ]
+    },
+
+    "huerta": {
+    "nombre": "Huerta Orgánica",
+    "modulos": [
+        {
+            "titulo": "Presentación del curso",
+            "contenido": "Introducción, tipos de huertas. - Elección del espacio. Requerimientos básicos"
+        },
+        {
+            "titulo": "Preparación del suelo",
+            "contenido": "Coberturas. Dinámica de los sustratos en contenedores"
+        },
+        {
+            "titulo": "Siembra y plantación",
+            "contenido": "Densidades. Asociaciones. Siembra directa y almacigo. - Cuidados y consideraciones en cada caso"
+        },
+        {
+            "titulo": "Cuidado de la huerta",
+            "contenido": "Riego. - Acolchado. - Abonado. - Poda. - Rotación de cultivos."
+        },
+        {
+            "titulo": "Recolección y cosecha",
+            "contenido": "Cosecha en el momento justo. - Herramientas de cosecha. - Almacenamiento de los alimentos."
+        },
+        {
+            "titulo": "Plagas y enfermedades",
+            "contenido": "Identificación de plagas y enfermedades comunes. - Control y prevención."
+        },
+        {
+            "titulo": "Huerta y salud",
+            "contenido": "Beneficios de consumir alimentos de la huerta. - El huerto como espacio terapéutico."
+        }
+    ]
+    },
+
+    "interior": {
+    "nombre": "Plantas Ornamentales de Interior",
+    "modulos": [
+        {
+            "titulo": "Conceptos iniciales",
+            "contenido": "Nombre científico - Monoico y dióico - Monocotiledóneas y dicotiledóneas - Componente vegetal: agrupamientos, hojas, flores, frutos - Requerimientos físico-químicos de las plantas: sustrato, agua, aire, asoleamiento, temperatura, viento, riego - Como estudiar las plantas - Gimnospermas y Angiospermas"
+        },
+        {
+            "titulo": "Monocotiledóneas y Dicotiledóneas",
+            "contenido": "Gramíneas ornamentales"
+        },
+        {
+            "titulo": "Árboles y Arbustos"
+        },
+        {
+            "titulo": "Trepadoras y Herbáceas"
+        }
+    ]
+    }
+}
