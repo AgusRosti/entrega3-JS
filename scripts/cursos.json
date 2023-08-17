@@ -121,10 +121,12 @@
             "contenido": "Gramíneas ornamentales"
         },
         {
-            "titulo": "Árboles y Arbustos"
+            "titulo": "Árboles y Arbustos",
+            "contenido": "Requerimientos "
         },
         {
-            "titulo": "Trepadoras y Herbáceas"
+            "titulo": "Trepadoras y Herbáceas",
+            "contenido": "Requerimientos "
         }
     ]
     }
